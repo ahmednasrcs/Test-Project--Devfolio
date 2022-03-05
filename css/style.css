@@ -261,6 +261,129 @@ h1 {
 
 }
 
+/* Services Style */
+
+.service-card {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    /* box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%); */
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 10%);
+}
+
+.service-icon {
+    margin-bottom: 1rem;
+    /* color: tomato; */
+}
+
+.service-card .icon-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle {
+
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+
+}
+.icon-circle:hover{
+    background-color: #0078ff;
+    box-shadow:0 0 0 10px #f5f5f5;
+}
+
+i.fas .fa-briefcase {
+    display: inline-block;
+    /* font-family: bootstrap-icons !important; */
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+
+.service-card .title-b {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+/*  Counter section Style */
+.section-counter {
+    background-image: url(../images/background/counters-bg.jpg);
+    /* position: relative;
+    color: white; */
+
+}
+
+.count {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.layer-count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+
+.counter-box {
+    color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 577px) {
+    .counter-box {
+        margin-bottom: 1.8rem;
+    }
+}
+
+.counter-icon {
+    margin-bottom: 1rem;
+}
+
+
+.counter-icon .icon-circle {
+
+        transition: all 500ms ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 0 10px #f5f5f5;
+}
+
+i.fas .fa-check::before {
+    display: inline-block;
+    font-style: normal;
+    font-size: 0.4rem;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+
+  .clr {
+    clear: both;
+}
 
 
 footer {
